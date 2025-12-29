@@ -1,7 +1,7 @@
-package com.demo;
-
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello Shrikanth");
+        System.out.println("Hello Jenkins");
+        System.out.println("Build triggered");
+        System.out.println("Maven success");
     }
 }
