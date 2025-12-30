@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Checking out source code'
  		git branch: 'main',
-			https://github.com/rathodatul07/hello-java-maven.git
+			 url: 'https://github.com/rathodatul07/hello-java-maven.git'
             }
         }
 
