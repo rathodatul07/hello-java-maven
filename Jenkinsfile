@@ -8,11 +8,11 @@ pipeline {
 
     stages {
 
-        stage('Checkout scm ') {
+        stage('Checkout scm') {
             steps {
                 echo 'Checking out source code'
  		git branch: 'main',
-		https://github.com/rathodatul07/hello-java-maven.git
+			https://github.com/rathodatul07/hello-java-maven.git
             }
         }
 
